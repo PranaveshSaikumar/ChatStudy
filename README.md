@@ -1,4 +1,4 @@
-# Ex. No:1b 	Study of Client Server Chat Applications
+# Ex. No:1b 			Study of Client Server Chat Applications
 
 ## Aim: 
 To perform a study on Client Server Chat Applications
@@ -72,11 +72,14 @@ User authentication mechanisms are essential to ensure secure and authorized acc
 Client-server chat applications are versatile tools that facilitate real-time communication between users over a network. They incorporate various components, including server-side and client-side elements, and must consider factors such as security, scalability, and concurrency. As technology continues to advance, client-server chat applications remain integral for collaborative communication in various domains.
 
 Client-server chat applications are foundational to real-time communication over networks. They incorporate principles of socket programming, communication protocols, and security mechanisms to provide a seamless user experience. Understanding the basics of client-server chat applications is essential for developers involved in networked application development, as they form the backbone of various collaborative communication systems. As technology evolves, chat applications continue to adapt, incorporating new features and technologies to enhance user interaction and connectivity.
-## Program :
-### Client
+
+## PROGRAM
 ```
-Developed by: Pranavesh Saikumar
-Reg no: 212223040149
+NAME : Pranavesh Saikumar
+REGISTER NUMBER : 212223040149
+```
+## CLIENT:
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
@@ -85,7 +88,7 @@ while True:
     s.send(msg.encode()) 
     print("Server > ",s.recv(1024).decode()) 
 ```
-### Server
+## SERVER:
 ```
 import socket 
 s=socket.socket() 
@@ -99,14 +102,12 @@ while True:
             c.send(msg.encode())
 ```
 
-## Output:
-### Client
+## OUTPUT
+## CLIENT:
+![image](https://github.com/user-attachments/assets/8d574d84-7e0d-436b-8580-1910988d9394)
 
-![{9049DBB5-8A33-46F7-9945-6B27D15B011D}](https://github.com/user-attachments/assets/b440717e-2986-4354-b91d-ec291e9d35de)
-
-### Server
-
-![{55AFA3A4-AE92-42CE-90F5-0AC63AC8F7BF}](https://github.com/user-attachments/assets/a0d43aad-3cfc-4d65-beeb-5a904b5d9364)
+## SERVER:
+![image](https://github.com/user-attachments/assets/d59fc468-3c5a-4f63-aa48-d6f13f7d19e8)
 
 
 ## Result:
