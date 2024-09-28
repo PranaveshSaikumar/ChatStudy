@@ -78,7 +78,7 @@ Client-server chat applications are foundational to real-time communication over
 NAME : Pranavesh Saikumar
 REGISTER NUMBER : 212223040149
 ```
-## CLIENT:
+CLIENT:
 ```
 import socket 
 s=socket.socket() 
@@ -88,7 +88,7 @@ while True:
     s.send(msg.encode()) 
     print("Server > ",s.recv(1024).decode()) 
 ```
-## SERVER:
+SERVER:
 ```
 import socket 
 s=socket.socket() 
@@ -103,10 +103,10 @@ while True:
 ```
 
 ## OUTPUT
-## CLIENT:
+CLIENT:
 ![image](https://github.com/user-attachments/assets/8d574d84-7e0d-436b-8580-1910988d9394)
 
-## SERVER:
+SERVER:
 ![image](https://github.com/user-attachments/assets/d59fc468-3c5a-4f63-aa48-d6f13f7d19e8)
 
 
